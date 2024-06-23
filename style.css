@@ -5,8 +5,8 @@
 }
 
 #logo{
-  margin-left: 50px; /* margin-left serve para dá um espaçamento a esqueda do logo */
- margin-top: 50px;   /* margin-top, é o espassamento que vc ao logo fazendo com que o logo se afaste da margin superior da tela */
+  margin-left: 50px; 
+ margin-top: 50px;
 }
 
 #titulo-menusuperior{
@@ -18,8 +18,7 @@
 #texto-menusuperior{
 margin-left: 150px;
 margin-top: 35px;
-padding-bottom: 100px; /* 
-A propriedade padding-bottom no CSS define a distância entre a borda inferior de um elemento e seu conteúdo. Em outras palavras, ela adiciona um espaço extra na parte inferior do elemento, sem afetar sua largura ou altura.*/ 
+padding-bottom: 100px; 
 
 }
 
@@ -150,11 +149,11 @@ button{
     border: 0px;
     border-radius: 5px;
     margin-bottom: 50px;
-    font-weight: bold; /* font-weight é para deixa a o texto dentro do buttom em negrito, mais grosso */
-    cursor: pointer;   /* curso pointer serve para que vc possa fazer alterações no curso do mause e o icone adicionando efeitos juntos com outas tags*/ 
+    font-weight: bold; 
+    cursor: pointer;    
 }
 
-/* aqui vamos fazer com que o button faça o jesto de passar o mause e flutuar usando a função translate: (-7px) lembre que para usar a função ponha o parenteses ()*/
+
 button:hover{
    background-color: #318fb8; 
    color:white;
